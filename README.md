@@ -27,32 +27,35 @@ Ensemble Model: Combines multiple models to improve accuracy and robustness.
    <h2>5. pip install -r requirements.txt</h2>
 
    <p></p>
-    <h3>6. Prepare Dataset:</h3>
+    <h2>6. Prepare Dataset:</h2>
         Ensure you have a dataset of tomato fruit images categorized by disease type.
        The dataset should be organized in subdirectories, each named after the corresponding disease.
-   7. Model Architecture:-
+   <h2>7. Model Architecture:-</h2>
       The ensemble model consists of several pre-trained CNNs,such as:
-      VGG16
-      ResNet50
-      InceptionV3
-      DenseNet121
-      Xception
-
+     <ul>
+   <li>VGG16</li>
+<li>ResNet150</li>
+   <li>InceptionV3</li>
+   <li>DenseNet121</li>
+   <li>Xception</li>
+   
+</ul>
+   
       These models are fine-tuned on the tomato fruit disease dataset and combined to form an ensemble for improved performance.
-   8. Dataset:-
+   <h2>8. Dataset:-</h2>
       The dataset used for this project should contain labeled images of tomato fruits affected by various diseases.
       Each category should represent a specific disease.
-    9. Training:-
+    <h2>9. Training:-</h2>
       The training process involves:
         Loading and preprocessing the dataset.
        Fine-tuning pre-trained models using transfer learning.
        Combining the models into an ensemble.
         Training the ensemble model on the dataset.
-   10. Evaluation:-
+   <h2>10. Evaluation:-</h2>
        The model is evaluated using standard metrics such as accuracy, precision, recall, and F1-score.
        Confusion matrices and ROC curves are also generated for detailed analysis.
-   11. Results:-
+   <h2>11. Results:-</h2>
        The ensemble model achieves high accuracy in detecting tomato fruit diseases, outperforming individual models.
        Detailed results and performance metrics are:
-       Accuracy: 98.54%
+       <b>Accuracy: 98.54%
        
