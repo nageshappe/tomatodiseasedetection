@@ -1,4 +1,4 @@
-1. Introduction:
+<b>1. Introduction:<b>
 Tomato fruit diseases can significantly impact crop yield and quality. Early and accurate detection is crucial for effective disease management.
 This project utilizes transfer learning and ensemble modeling to build a powerful disease detection system, combining the strengths of multiple pre-trained CNN models.
 
