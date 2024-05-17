@@ -1,30 +1,33 @@
-<b>1. Introduction:<b>
-Tomato fruit diseases can significantly impact crop yield and quality. Early and accurate detection is crucial for effective disease management.
+<h2>1. Introduction:</h2><br>
+Tomato fruit diseases can significantly impact crop yield and quality. Early and accurate detection is crucial for effective disease management.<br>
 This project utilizes transfer learning and ensemble modeling to build a powerful disease detection system, combining the strengths of multiple pre-trained CNN models.
-
-2. Features:-
+<p>
+<h2>2. Features:-</h2>
 Transfer Learning: Utilizes pre-trained CNN models for feature extraction.
 Ensemble Model: Combines multiple models to improve accuracy and robustness.
 
-3. Requirements:-
-   Python 3.6 or higher
-   TensorFlow 2.x
-   Keras
-   OpenCV
-   NumPy
-   Pandas
-   Scikit-learn
-   Matplotlib
-
-   4. Installation:-
+<h2>3. Requirements:-</h2>
+<ul>
+   <li>Python 3.6 or higher</li>
+<li>TensorFlow 2.x</li>
+   <li>Keras</li>
+   <li>OpenCV</li>
+   <li>NumPy</li>
+   <li>Pandas</li>
+   <li>Scikit-learn</li>
+   <li>Matplotlib
+</li>
+</ul>
+<p></p>   
+   <h2>4. Installation:-</h2>
    Clone the repository:
    git clone https://github.com/nageshappe/TomatoDiseaseDetection.git
 
-   
-   5. pip install -r requirements.txt
+   <p></p>
+   <h2>5. pip install -r requirements.txt</h2>
 
-   
-    6. Prepare Dataset:
+   <p></p>
+    <h3>6. Prepare Dataset:</h3>
         Ensure you have a dataset of tomato fruit images categorized by disease type.
        The dataset should be organized in subdirectories, each named after the corresponding disease.
    7. Model Architecture:-
