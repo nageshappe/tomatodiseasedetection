@@ -18,7 +18,7 @@ Ensemble Model: Combines multiple models to improve accuracy and robustness.
 
    4. Installation
    Clone the repository:
-   git clone https://github.com/yourusername/tomatodiseasedetection.git
+   git clone https://github.com/nageshappe/TomatoDiseaseDetection.git
 
    
    5. pip install -r requirements.txt
